@@ -11,6 +11,18 @@ open.addEventListener("click",()=>{
 menu.style.visibility="visible";
  })
 
-navigate.addEventListener("click",()=>{
+navigate[0].addEventListener("click",()=>{
+    menu.style.visibility="hidden";
+})
+navigate[1].addEventListener("click",()=>{
+    menu.style.visibility="hidden";
+})
+navigate[2].addEventListener("click",()=>{
+    menu.style.visibility="hidden";
+})
+navigate[3].addEventListener("click",()=>{
+    menu.style.visibility="hidden";
+})
+navigate[4].addEventListener("click",()=>{
     menu.style.visibility="hidden";
 })
